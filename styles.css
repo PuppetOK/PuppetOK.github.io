@@ -6,6 +6,7 @@ body {
 }
 
 h1{
+	font-family:'Impact',Charcoal, sans-serif;
 	font-size: 100px;
 	color: white;
 	text-shadow: black 0.1em 0.1em 0.2em;
@@ -13,6 +14,7 @@ h1{
 }
 
 h2{
+	font-family:'Impact',Charcoal, sans-serif;
 	position: relative;
 	margin-bottom: -10px;
 	font-size: 50px;
@@ -22,6 +24,7 @@ h2{
 	
 }
 ol{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	margin-left: 39%;
 	font-size: 20px;
 	color: white;
@@ -32,8 +35,13 @@ ol{
 	margin-left: 25%;
 	box-shadow: 3px 5px 10px 6px black;
 }
-
+.dark_souls2{
+	margin-left: 25%;
+	box-shadow: 3px 5px 10px 6px black;
+	margin-bottom: 50px;
+}
 p{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	border-style:outset;
 	border-width: medium;
 	box-shadow: 3px 5px 10px 6px black;
@@ -45,9 +53,20 @@ p{
 	margin-left: 35%;
 	width: 30%;
 }
-
-img{
-	border:groove;
-	border-width:5px;
-	margin:auto;
+table{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	margin-left: 28%;
+	font-style:
+	display: inline-grid;
+}
+th{
+	font-size: 60px;
+}
+th, td{
+	text-align: left;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	border-bottom: 2px solid black;
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
