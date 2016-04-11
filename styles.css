@@ -23,6 +23,7 @@ h2{
 	text-shadow: black 0.1em 0.1em 0.2em;
 	
 }
+
 ol{
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	margin-left: 39%;
@@ -31,15 +32,18 @@ ol{
 	text-shadow: black 0.1em 0.1em 0.2em;
 
 }
+
 #dark_souls1{
 	margin-left: 25%;
 	box-shadow: 3px 5px 10px 6px black;
 }
+
 .dark_souls2{
 	margin-left: 25%;
 	box-shadow: 3px 5px 10px 6px black;
 	margin-bottom: 50px;
 }
+
 p{
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	border-style:outset;
@@ -53,15 +57,35 @@ p{
 	margin-left: 35%;
 	width: 30%;
 }
+
+p.buydarksouls{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+li a{
+	color:red;
+	text-decoration: none;
+}
+li a:visited{
+	color:black;
+}
+li a:hover{
+	color:white;
+}
+li a:active{
+	color:blue;
+}
 table{
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	margin-left: 28%;
 	font-style:
 	display: inline-grid;
 }
+
 th{
 	font-size: 60px;
 }
+
 th, td{
 	text-align: left;
 	padding: 10px;
@@ -69,4 +93,14 @@ th, td{
 	font-size: 20px;
 	border-bottom: 2px solid black;
 	text-shadow: black 0.1em 0.1em 0.2em;
+}
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	width: 60px;
+}
+nav a{
+	display: block;
+	width: 100px;
 }
