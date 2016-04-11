@@ -1,8 +1,12 @@
+html{
+	font-size: 100%;
+}
 body {
 	background-image: url(https://images7.alphacoders.com/637/637388.jpg);
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 h1{
@@ -34,11 +38,13 @@ ol{
 }
 
 #dark_souls1{
+	max-width: 100%;
 	margin-left: 25%;
 	box-shadow: 3px 5px 10px 6px black;
 }
 
 .dark_souls2{
+	max-width: 100%;
 	margin-left: 25%;
 	box-shadow: 3px 5px 10px 6px black;
 	margin-bottom: 50px;
@@ -67,7 +73,7 @@ li a{
 	text-decoration: none;
 }
 li a:visited{
-	color:black;
+	color:orange;
 }
 li a:hover{
 	color:white;
