@@ -1,0 +1,23 @@
+body {
+	background-image: url(https://images7.alphacoders.com/637/637388.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+h1{
+	color:white;
+	margin-left: 40%;
+}
+p{
+	border: 5px solid black;
+	padding: .8%;
+	color:white;
+	margin-left: 35%;
+	width: 30%;
+}
+img{
+	border:groove;
+	border-width:5px;
+	margin:auto;
+
+}
