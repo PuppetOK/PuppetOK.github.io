@@ -4,20 +4,40 @@ body {
 	background-position: right top;
 	background-attachment: fixed;
 }
+
 h1{
+	font-size: 100px;
+	color:white;
+	margin-left: 26%;
+}
+
+h2{
+	font-size: 50px;
 	color:white;
 	margin-left: 40%;
+	
 }
+ol{
+	margin-left: 39%;
+
+}
+#dark_souls1{
+	margin-left: 25%;
+}
+
 p{
-	border: 5px solid black;
+	border-style:outset;
+	border-width: medium;
+	background-color: white;
+	border-radius: 25px;
 	padding: .8%;
-	color:white;
+	color:black;
 	margin-left: 35%;
 	width: 30%;
 }
+
 img{
 	border:groove;
 	border-width:5px;
 	margin:auto;
-
 }
